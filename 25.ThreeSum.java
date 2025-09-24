@@ -2,6 +2,8 @@
 //i != j, i != k, and j != k
 //nums[i] + nums[j] + nums[k] == 0.
 
+//TC: O(NlogN)+O(N^2) = O(N^2)
+
 class Solution{
   public List<List<Integer>> threeSum(int arr[]){
     Arrays.sort(arr);
